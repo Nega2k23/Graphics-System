@@ -1,0 +1,10 @@
+export {default as Layout} from "./Dashbord/components/Layout"
+export {default as Dashbord} from './Dashbord/Dashbord'
+export {default as Client} from "./Dashbord/clients/Client"
+export {default as Activite} from './Dashbord/activite/Activite'
+export {default as Matiere} from './Dashbord/matiere/Matiere'
+export {default as Operation} from './Dashbord/operation/Operation'
+export {default as OperationMatiere} from './Dashbord/operationMatiere/OperationMatiere'
+export {default as Users} from './Dashbord/users/Users'
+export {default as EtapeProds} from './Dashbord/etapesProduction/EtapeProds'
+export {default as Odf} from './Dashbord/odf/Odf'

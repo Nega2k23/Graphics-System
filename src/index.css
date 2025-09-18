@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+     themes: all;
+     themes: nord --light , dark --prefersdark;
+}
+
+.modal{
+    padding-top: 80px;
+}
+    
+@media (max-width:1018px) {
+
+.modal{
+    padding-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+}   
+

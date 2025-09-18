@@ -1,0 +1,888 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "name": "Georges",
+      "adresse": "geo.@gmail.com",
+      "service": "Developpement",
+      "password": "1234578958899",
+      "dateRealisation": "2025-08-28"
+    }
+  ],
+  "login": [
+    
+  ],
+  "clients": [
+    {
+      "id": "1",
+      "name": "Georges",
+      "adresse": "geo@gmail",
+      "contact": "999999"
+    },
+    {
+      "id": "2",
+      "name": "Leon",
+      "adresse": "leon.@gmail.com",
+      "contact": "6557221115"
+    },
+    {
+      "id": "3",
+      "name": "Boji",
+      "adresse": "boji@gmail.com",
+      "contact": "1111111111"
+    },
+    {
+      "id": "4",
+      "name": "Shinra",
+      "adresse": "shinra@gmail.com",
+      "contact": "3333333333"
+    },
+    {
+      "id": "6",
+      "name": "UCB",
+      "adresse": "ucb@gmail.com",
+      "contact": "6584792256"
+    },
+    {
+      "id": "7",
+      "name": "Brigette",
+      "adresse": "shinra@gmail.com",
+      "contact": "4940583025"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Georges",
+      "adresse": "geo.@gmail.com",
+      "service": "Developpement",
+      "password": "12345789588",
+      "dateRealisation": "2025-08-28"
+    },
+    {
+      "id": "2",
+      "name": "Boji",
+      "adresse": "boji@gmail.com",
+      "service": "Commerciale",
+      "password": "45678993",
+      "dateRealisation": "2025-08-14"
+    },
+    {
+      "id": "3",
+      "name": "Leon",
+      "adresse": "leon.@gmail.com",
+      "service": "Fujisat",
+      "password": "23005897",
+      "dateRealisation": "2025-08-09",
+      "avatar": ""
+    },
+    {
+      "id": "4",
+      "name": "Sung",
+      "adresse": "sung@gmail.com",
+      "service": "Ressoure Humaine",
+      "password": "6899977455",
+      "dateRealisation": "2025-08-28"
+    }
+  ],
+  "activite": [
+    {
+      "id": "1",
+      "name": "Imprimerie",
+      "montant": "120000",
+      "dateRealisation": "2025-08-22",
+      "select": "EtapesN1"
+    },
+    {
+      "id": "2",
+      "name": "Serigraphie",
+      "montant": "500000",
+      "dateRealisation": "2025-09-04",
+      "select": "EtapesN2"
+    },
+    {
+      "id": "3",
+      "name": "Faconnage",
+      "montant": "800000",
+      "dateRealisation": "2025-08-14",
+      "select": "EtapesN3"
+    },
+    {
+      "id": "4",
+      "name": "ActiviteN1",
+      "montant": "900000",
+      "dateRealisation": "2025-09-05",
+      "select": "EtapesN1"
+    }
+  ],
+  "matiere": [
+    {
+      "id": "1",
+      "name": "spire",
+      "format": "33 m",
+      "prixUnitaire": "1000",
+      "quantite": "5",
+      "montant": "5000"
+    },
+    {
+      "id": "2",
+      "name": "ficelle",
+      "format": "500 m",
+      "prixUnitaire": "2000",
+      "quantite": "4",
+      "montant": "8000"
+    },
+    {
+      "id": "3",
+      "name": "Bobine",
+      "format": "1000 m",
+      "prixUnitaire": "1000",
+      "quantite": "500",
+      "montant": "500000"
+    }
+  ],
+  "operation": [
+    {
+      "id": "1",
+      "name": "Broderie",
+      "dateRealisation": "2025-08-02",
+      "select": "Operation1",
+      "observation": "ljlkjlkjklfjkhkfhkjhjbhjbhjfbdfl"
+    },
+    {
+      "id": "2",
+      "name": "calcage",
+      "dateRealisation": "2025-08-06",
+      "select": "Operation2",
+      "observation": "mmmmmmmmmmmmmmmmmmmmmmmmmmmmm"
+    },
+    {
+      "id": "3",
+      "name": "Lissage",
+      "dateRealisation": "2025-08-21",
+      "select": "Operation3",
+      "observation": "rtttttttttttttttttttttttttttttttttttttttttttyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+    },
+    {
+      "id": "4",
+      "name": "Percage",
+      "dateRealisation": "2025-08-12",
+      "select": "Operation1",
+      "observation": "ccccccccccccccccccccccccccccccccccccccccvvvvvvvvvvvvvvvvvvvvv"
+    }
+  ],
+  "operationsMatieres": [
+    {
+      "id": "1758104764383",
+      "Op": []
+    },
+    {
+      "id": "1758107555058",
+      "Op": [
+        {
+          "operation": "calcage",
+          "matieres": [
+            {
+              "name": "spire",
+              "quantite": 87
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1758107711120",
+      "Op": [
+        {
+          "operation": "Broderie",
+          "matieres": [
+            {
+              "name": "spire",
+              "quantite": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1758118571031",
+      "Op": [
+        {
+          "operation": "Lissage",
+          "matieres": [
+            {
+              "name": "spire",
+              "quantite": 4
+            },
+            {
+              "name": "ficelle",
+              "quantite": 5
+            },
+            {
+              "name": "Bobine",
+              "quantite": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "etapeProd": [
+    {
+      "id": "ff87",
+      "nomEtape": "Etape4",
+      "activite": "ActiviteN1",
+      "operationsMatieres": []
+    },
+    {
+      "id": "4014",
+      "nomEtape": "Etape5",
+      "activite": "Serigraphie",
+      "operationsMatieres": []
+    },
+    {
+      "id": "7d85",
+      "nomEtape": "Etape6",
+      "activite": "ActiviteN1",
+      "operationsMatieres": [
+        {
+          "id": "6707",
+          "Op": [
+            {
+              "operationId": "1",
+              "matieres": [
+                {
+                  "nom": "Fer",
+                  "quantite": 1
+                },
+                {
+                  "nom": "Spire",
+                  "quantite": 1
+                }
+              ]
+            },
+            {
+              "operationId": "2",
+              "matieres": [
+                {
+                  "nom": "Laine",
+                  "quantite": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2a42",
+          "Op": [
+            {
+              "operationId": "1",
+              "matieres": [
+                {
+                  "nom": "Plastique",
+                  "quantite": 1
+                }
+              ]
+            },
+            {
+              "operationId": "2",
+              "matieres": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0516",
+      "nomEtape": "Etape5",
+      "activite": "Faconnage",
+      "operationsMatieres": [
+        {
+          "id": "6707",
+          "Op": [
+            {
+              "operationId": "1",
+              "matieres": [
+                {
+                  "nom": "Fer",
+                  "quantite": 1
+                },
+                {
+                  "nom": "Spire",
+                  "quantite": 1
+                }
+              ]
+            },
+            {
+              "operationId": "2",
+              "matieres": [
+                {
+                  "nom": "Laine",
+                  "quantite": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2a42",
+          "Op": [
+            {
+              "operationId": "1",
+              "matieres": [
+                {
+                  "nom": "Plastique",
+                  "quantite": 1
+                }
+              ]
+            },
+            {
+              "operationId": "2",
+              "matieres": []
+            }
+          ]
+        },
+        {
+          "id": "732b",
+          "Op": [
+            {
+              "operationId": "1",
+              "matieres": [
+                {
+                  "nom": "Fer",
+                  "quantite": 1
+                },
+                {
+                  "nom": "Bois",
+                  "quantite": 1
+                },
+                {
+                  "nom": "Plastique",
+                  "quantite": 1
+                },
+                {
+                  "nom": "Spire",
+                  "quantite": 1
+                },
+                {
+                  "nom": "Fil",
+                  "quantite": 1
+                }
+              ]
+            },
+            {
+              "operationId": "2",
+              "matieres": [
+                {
+                  "nom": "Coton",
+                  "quantite": 1
+                },
+                {
+                  "nom": "Soie",
+                  "quantite": 18
+                },
+                {
+                  "nom": "Laine",
+                  "quantite": 1
+                }
+              ]
+            },
+            {
+              "operationId": "3",
+              "matieres": [
+                {
+                  "nom": "Cuivre",
+                  "quantite": 15
+                },
+                {
+                  "nom": "Inox",
+                  "quantite": 12
+                },
+                {
+                  "nom": "Aluminium",
+                  "quantite": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d137",
+      "nomEtape": "",
+      "activite": "",
+      "operationsMatieres": [
+        {
+          "id": "1758104764383",
+          "Op": []
+        },
+        {
+          "id": "1758107555058",
+          "Op": [
+            {
+              "operation": "calcage",
+              "matieres": [
+                {
+                  "name": "spire",
+                  "quantite": 87
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1758107711120",
+          "Op": [
+            {
+              "operation": "Broderie",
+              "matieres": [
+                {
+                  "name": "spire",
+                  "quantite": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1758118571031",
+          "Op": [
+            {
+              "operation": "Lissage",
+              "matieres": [
+                {
+                  "name": "spire",
+                  "quantite": 4
+                },
+                {
+                  "name": "ficelle",
+                  "quantite": 5
+                },
+                {
+                  "name": "Bobine",
+                  "quantite": 9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "odf": [
+    {
+      "id": "cc9c",
+      "nomClient": "Georges",
+      "numeroDossier": "77888",
+      "dateOuverture": "2025-09-01",
+      "dateCreation": "2025-09-02",
+      "numeroCreation": "2",
+      "quantiteCommande": "15",
+      "quantiteLivree": "15",
+      "dateLivraison": "2025-09-03",
+      "designation": "D47Y",
+      "numeroUsine": "11456",
+      "observation": "Merci d'avoir patienter",
+      "etapeProd": [
+        {
+          "id": "ff87",
+          "nomEtape": "Etape4",
+          "activite": "ActiviteN1",
+          "operationsMatieres": []
+        }
+      ]
+    },
+    {
+      "id": "a3d9",
+      "nomClient": "Leon",
+      "numeroDossier": "14572",
+      "dateOuverture": "2025-09-03",
+      "dateCreation": "2025-09-09",
+      "numeroCreation": "3",
+      "quantiteCommande": "50",
+      "quantiteLivree": "45",
+      "dateLivraison": "2025-09-18",
+      "designation": "S4T5U",
+      "numeroUsine": "55454",
+      "observation": "Felicitations vous etes le 100e Client....",
+      "etapeProd": [
+        {
+          "id": "ff87",
+          "nomEtape": "Etape4",
+          "activite": "ActiviteN1",
+          "operationsMatieres": []
+        }
+      ]
+    },
+    {
+      "id": "5337",
+      "nomClient": "Boji",
+      "numeroDossier": "8756",
+      "dateOuverture": "2025-09-18",
+      "dateCreation": "2025-09-16",
+      "numeroCreation": "5",
+      "quantiteCommande": "100",
+      "quantiteLivree": "80",
+      "dateLivraison": "2025-09-25",
+      "designation": "J4Y8P",
+      "numeroUsine": "5555",
+      "observation": "On aimerai bien terminer a temps",
+      "etapeProd": [
+        {
+          "id": "ff87",
+          "nomEtape": "Etape4",
+          "activite": "ActiviteN1",
+          "operationsMatieres": []
+        }
+      ]
+    },
+    {
+      "id": "8dde",
+      "nomClient": "UCB",
+      "numeroDossier": "12345",
+      "dateOuverture": "2025-09-16",
+      "dateCreation": "2025-09-06",
+      "numeroCreation": "14",
+      "quantiteCommande": "500",
+      "quantiteLivree": "500",
+      "dateLivraison": "2025-09-30",
+      "designation": "U8C9B",
+      "numeroUsine": "500017",
+      "observation": "Mr UCB vous avez passer une quantite enorme de commande",
+      "etapeProd": [
+        {
+          "id": "ff87",
+          "nomEtape": "Etape4",
+          "activite": "ActiviteN1",
+          "operationsMatieres": []
+        }
+      ]
+    },
+    {
+      "id": "9766",
+      "nomClient": "Brigette",
+      "numeroDossier": "2007",
+      "dateOuverture": "2025-09-20",
+      "dateCreation": "2025-09-10",
+      "numeroCreation": "7",
+      "quantiteCommande": "40",
+      "quantiteLivree": "39",
+      "dateLivraison": "2025-09-30",
+      "designation": "BRI237",
+      "numeroUsine": "54670",
+      "observation": "En raison du manque de temps.....",
+      "etapeProd": [
+        {
+          "id": "7d85",
+          "nomEtape": "Etape6",
+          "activite": "ActiviteN1",
+          "operationsMatieres": [
+            {
+              "id": "6707",
+              "Op": [
+                {
+                  "operationId": "1",
+                  "matieres": [
+                    {
+                      "nom": "Fer",
+                      "quantite": 1
+                    },
+                    {
+                      "nom": "Spire",
+                      "quantite": 1
+                    }
+                  ]
+                },
+                {
+                  "operationId": "2",
+                  "matieres": [
+                    {
+                      "nom": "Laine",
+                      "quantite": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "2a42",
+              "Op": [
+                {
+                  "operationId": "1",
+                  "matieres": [
+                    {
+                      "nom": "Plastique",
+                      "quantite": 1
+                    }
+                  ]
+                },
+                {
+                  "operationId": "2",
+                  "matieres": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bce3",
+      "nomClient": "Shinra",
+      "numeroDossier": "77888777",
+      "dateOuverture": "2025-09-18",
+      "dateCreation": "2025-09-27",
+      "numeroCreation": "15",
+      "quantiteCommande": "15",
+      "quantiteLivree": "10",
+      "dateLivraison": "2025-10-10",
+      "designation": "MI5T8",
+      "numeroUsine": "00015",
+      "observation": "merci",
+      "etapeProd": [
+        {
+          "id": "ff87",
+          "nomEtape": "Etape4",
+          "activite": "ActiviteN1",
+          "operationsMatieres": []
+        },
+        {
+          "id": "4014",
+          "nomEtape": "Etape5",
+          "activite": "Serigraphie",
+          "operationsMatieres": []
+        },
+        {
+          "id": "7d85",
+          "nomEtape": "Etape6",
+          "activite": "ActiviteN1",
+          "operationsMatieres": [
+            {
+              "id": "6707",
+              "Op": [
+                {
+                  "operationId": "1",
+                  "matieres": [
+                    {
+                      "nom": "Fer",
+                      "quantite": 1
+                    },
+                    {
+                      "nom": "Spire",
+                      "quantite": 1
+                    }
+                  ]
+                },
+                {
+                  "operationId": "2",
+                  "matieres": [
+                    {
+                      "nom": "Laine",
+                      "quantite": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "2a42",
+              "Op": [
+                {
+                  "operationId": "1",
+                  "matieres": [
+                    {
+                      "nom": "Plastique",
+                      "quantite": 1
+                    }
+                  ]
+                },
+                {
+                  "operationId": "2",
+                  "matieres": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "0516",
+          "nomEtape": "Etape5",
+          "activite": "Faconnage",
+          "operationsMatieres": [
+            {
+              "id": "6707",
+              "Op": [
+                {
+                  "operationId": "1",
+                  "matieres": [
+                    {
+                      "nom": "Fer",
+                      "quantite": 1
+                    },
+                    {
+                      "nom": "Spire",
+                      "quantite": 1
+                    }
+                  ]
+                },
+                {
+                  "operationId": "2",
+                  "matieres": [
+                    {
+                      "nom": "Laine",
+                      "quantite": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "2a42",
+              "Op": [
+                {
+                  "operationId": "1",
+                  "matieres": [
+                    {
+                      "nom": "Plastique",
+                      "quantite": 1
+                    }
+                  ]
+                },
+                {
+                  "operationId": "2",
+                  "matieres": []
+                }
+              ]
+            },
+            {
+              "id": "732b",
+              "Op": [
+                {
+                  "operationId": "1",
+                  "matieres": [
+                    {
+                      "nom": "Fer",
+                      "quantite": 1
+                    },
+                    {
+                      "nom": "Bois",
+                      "quantite": 1
+                    },
+                    {
+                      "nom": "Plastique",
+                      "quantite": 1
+                    },
+                    {
+                      "nom": "Spire",
+                      "quantite": 1
+                    },
+                    {
+                      "nom": "Fil",
+                      "quantite": 1
+                    }
+                  ]
+                },
+                {
+                  "operationId": "2",
+                  "matieres": [
+                    {
+                      "nom": "Coton",
+                      "quantite": 1
+                    },
+                    {
+                      "nom": "Soie",
+                      "quantite": 18
+                    },
+                    {
+                      "nom": "Laine",
+                      "quantite": 1
+                    }
+                  ]
+                },
+                {
+                  "operationId": "3",
+                  "matieres": [
+                    {
+                      "nom": "Cuivre",
+                      "quantite": 15
+                    },
+                    {
+                      "nom": "Inox",
+                      "quantite": 12
+                    },
+                    {
+                      "nom": "Aluminium",
+                      "quantite": 10
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d137",
+          "nomEtape": "",
+          "activite": "",
+          "operationsMatieres": [
+            {
+              "id": "1758104764383",
+              "Op": []
+            },
+            {
+              "id": "1758107555058",
+              "Op": [
+                {
+                  "operation": "calcage",
+                  "matieres": [
+                    {
+                      "name": "spire",
+                      "quantite": 87
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "1758107711120",
+              "Op": [
+                {
+                  "operation": "Broderie",
+                  "matieres": [
+                    {
+                      "name": "spire",
+                      "quantite": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "1758118571031",
+              "Op": [
+                {
+                  "operation": "Lissage",
+                  "matieres": [
+                    {
+                      "name": "spire",
+                      "quantite": 4
+                    },
+                    {
+                      "name": "ficelle",
+                      "quantite": 5
+                    },
+                    {
+                      "name": "Bobine",
+                      "quantite": 9
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
